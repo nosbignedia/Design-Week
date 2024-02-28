@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Player1Controller : MonoBehaviour
+public class Player2Controller : MonoBehaviour
 {
     public GameObject player;
     public GameObject restartButton;
@@ -35,24 +35,24 @@ public class Player1Controller : MonoBehaviour
         }
 
         // Player leaning
-        float lean = Input.GetAxis("Player1Horizontal");
+        float lean = Input.GetAxis("Player2Horizontal");
         player.transform.Translate(Vector3.right * lean * leanSpeed * Time.deltaTime);
 
         // Player actions
-        if (Input.GetKeyDown(KeyCode.Z) && stamina >= hitStaminaCost)
+        if (Input.GetKeyDown(KeyCode.M) && stamina >= hitStaminaCost)
         {
             // Player punches
             health -= hitDamage;
             stamina -= hitStaminaCost;
         }
 
-        if (Input.GetKeyDown(KeyCode.X) && stamina >= parryStaminaCost)
+        if (Input.GetKeyDown(KeyCode.Period) && stamina >= parryStaminaCost)
         {
             // Player parries
             stamina -= parryStaminaCost;
         }
 
-        if (Input.GetKeyDown(KeyCode.C) && stamina >= dodgeStaminaCost)
+        if (Input.GetKeyDown(KeyCode.Comma) && stamina >= dodgeStaminaCost)
         {
             // Player dodges
             stamina -= dodgeStaminaCost;
@@ -82,3 +82,5 @@ public class Player1Controller : MonoBehaviour
         staminaBar.transform.localScale = new Vector3(stamina / 100f, 1f, 1f);
     }
 }
+
+
