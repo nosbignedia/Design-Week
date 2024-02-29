@@ -1,0 +1,545 @@
+fileFormatVersion: 2
+guid: c0fe061640d7afe4d92b2372d915d537
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1754
+        width: 360
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 23, y: 25, z: 26, w: 24}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea9b838f93fbf645b50ec399914514a
+      internalID: 714030099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1755
+        width: 360
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 26, y: 28, z: 24, w: 19}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364f003d23b28d04a93c8881edd9e95e
+      internalID: 1469509233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1558
+        width: 429
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afb5bf2fbd99914796c194edd4fe421
+      internalID: 1530193411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1626
+        width: 238
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acb2543e087f8f44824e531642fb60d
+      internalID: -2096380846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1626
+        width: 238
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74333b5aa61814146961a993b92d72db
+      internalID: 1107044532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1757
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306625649d1dadb4ba91c06ecd3cf359
+      internalID: 1139390261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 1757
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bf8d994f76d1540ba98b02b7dde985
+      internalID: 1800449077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1596
+        width: 363
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 23, y: 25, z: 25, w: 28}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d72d4b6aee20947b36bc9c1a3255c8
+      internalID: -251598775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1702
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c58db77eb879241ac6b2f629b33ce8
+      internalID: -648012162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 1702
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e57bb581e344b646af876e38985cfa5
+      internalID: 353807466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1094
+        width: 621
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0fbb8e8a2d60441976d2f854f5d893
+      internalID: 1515522988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1540
+        width: 381
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 16, y: 14, z: 16, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88bcd283e958f7458a0deff6a201178
+      internalID: -1463929145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1057
+        width: 621
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217f9f95e8b0bdc4b958a9af53499638
+      internalID: 1716346614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1454
+        width: 381
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 23, y: 16, z: 20, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ef2a6d3cc4a5f40b24501fbd5cae58
+      internalID: -2030438380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 630
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab1d2d601df51e41ad5e64b292fc517
+      internalID: 688305039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 588
+        width: 630
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4851da99c4723b4895ae785916106aa
+      internalID: 1164585287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 321
+        width: 1080
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f6d76f5e08e0b4baf4a932d4793e5a
+      internalID: -1540092669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 85
+        width: 1080
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61752bd72ee36954eaa766ed34b3d162
+      internalID: -942478919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design Week SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1599
+        width: 347
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 41, y: 27, z: 43, w: 32}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e46a58a8bb46244b7b8ab786e7bbab
+      internalID: -1765573991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Design Week SpriteSheet_0: 714030099
+      Design Week SpriteSheet_1: 1469509233
+      Design Week SpriteSheet_10: 1515522988
+      Design Week SpriteSheet_11: -1463929145
+      Design Week SpriteSheet_12: 1716346614
+      Design Week SpriteSheet_13: -2030438380
+      Design Week SpriteSheet_14: 688305039
+      Design Week SpriteSheet_15: 1164585287
+      Design Week SpriteSheet_16: -1540092669
+      Design Week SpriteSheet_17: -942478919
+      Design Week SpriteSheet_18: -1765573991
+      Design Week SpriteSheet_2: 1530193411
+      Design Week SpriteSheet_3: -2096380846
+      Design Week SpriteSheet_4: 1107044532
+      Design Week SpriteSheet_5: 1139390261
+      Design Week SpriteSheet_6: 1800449077
+      Design Week SpriteSheet_7: -251598775
+      Design Week SpriteSheet_8: -648012162
+      Design Week SpriteSheet_9: 353807466
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
