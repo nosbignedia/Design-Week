@@ -32,7 +32,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player2Con
+  m_Name: Player1Con
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -140,7 +140,7 @@ AnimatorStateMachine:
     m_Position: {x: 190, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -607053219554216550}
-    m_Position: {x: 259.33337, y: 120.66667, z: 0}
+    m_Position: {x: 330, y: 80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3919852370532959803}
     m_Position: {x: 494.23987, y: 303.60468, z: 0}
