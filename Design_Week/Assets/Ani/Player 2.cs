@@ -34,10 +34,6 @@ public class Player2Controller : MonoBehaviour
             gameRestarted = false;
         }
 
-        // Player leaning
-        float lean = Input.GetAxis("Player2Horizontal");
-        player.transform.Translate(Vector3.right * lean * leanSpeed * Time.deltaTime);
-
         // Player actions
         if (Input.GetKeyDown(KeyCode.M) && stamina >= hitStaminaCost)
         {
