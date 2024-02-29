@@ -57,7 +57,7 @@ public class Player1Controller : MonoBehaviour
         // Restart the game if 'R' key is pressed
         if (Input.GetKeyDown(KeyCode.R))
         {
-            gameRestarted = true;
+            StartGame();
         }
 
         // Update UI elements
@@ -77,4 +77,10 @@ public class Player1Controller : MonoBehaviour
     {
         staminaBar.transform.localScale = new Vector3(stamina / 100f, 1f, 1f);
     }
+
+    public void StartGame()
+    {
+        gameRestarted = true;
+    }
 }
+
