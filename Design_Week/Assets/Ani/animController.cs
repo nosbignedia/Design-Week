@@ -18,26 +18,39 @@ public class animController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int Iframes = 0;
-        Iframes--;
+
         //chance 1 to start button for joy stick stuff later
         if (Input.GetKeyDown("1"))
         {
-            Iframes = +9;
-            anim.Play("Dodge Right");
+
+            anim.SetTrigger("Right");
 
         }
         //change to punch (only 1 so far)
         if (Input.GetKeyDown("2"))
         {
-            Iframes += 9;
-            anim.Play("Boxing");
+            anim.SetTrigger("Punch1");
+
         }
 
-        //should be default
-        if (Iframes >= 0)
+        if (Input.GetKeyDown("3"))
         {
-            anim.Play("Fighting Idle");
+            anim.SetTrigger("Punch2");
+
+
+
+        }
+
+        if (Input.GetKeyDown("4"))
+        {
+
+            anim.SetTrigger("left");
+        }
+
+        if (Input.GetKeyDown("5"))
+        {
+
+            anim.SetTrigger("Hit");
         }
     }
 }
